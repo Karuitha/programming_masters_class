@@ -56,7 +56,7 @@ print(student_2["major"])  # Output: Mathematics
 # **Dictionary Methods**
 
 | Method | Description | Example |
-|----------------|-------------------------------------|--------------------|
+|------------------|----------------------------------|-------------------|
 | `dict.get(key, default)` | Returns the value for the specified key. If the key is not found, returns the default value. | `student.get("age", "Not Found")` → `21` |
 | `dict.keys()` | Returns a view object containing all keys in the dictionary. | `student.keys()` → `dict_keys(['name', 'age', 'major'])` |
 | `dict.values()` | Returns a view object containing all values in the dictionary. | `student.values()` → `dict_values(['Alice', 21, 'Computer Science'])` |
@@ -116,7 +116,7 @@ print("orange" in fruits)  # Output: False
 # **Set Methods**
 
 | Method | Description | Example |
-|----------------|-------------------------------------|--------------------|
+|------------------|----------------------------------|-------------------|
 | `set.add(element)` | Adds an element to the set. If the element already exists, it won’t be added again. | `fruits.add("orange")` → `{"apple", "banana", "cherry", "orange"}` |
 | `set.remove(element)` | Removes the specified element. Raises an error if the element doesn’t exist. | `fruits.remove("banana")` |
 | `set.discard(element)` | Removes the specified element. Does not raise an error if the element doesn’t exist. | `fruits.discard("kiwi")` |
@@ -152,7 +152,7 @@ print(set_a.difference(set_b))  # Output: {1, 2}
 # **Key Differences Between Dictionaries and Sets**
 
 | Feature | Dictionary | Set |
-|-----------------|-----------------------------|--------------------------|
+|------------------|----------------------------|--------------------------|
 | Structure | Key-value pairs | Unique elements |
 | Access | Values accessed via keys | No direct access by index |
 | Duplicate Items | Keys must be unique; values can duplicate | All elements must be unique |
