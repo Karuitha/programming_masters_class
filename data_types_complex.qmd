@@ -1,0 +1,212 @@
+---
+title: "Data Structures in Python: Complex Data Types- PART 1"
+subtitle: "***Lists and Tuples***"
+author: "John Karuitha, PhD"
+editor: visual
+bibliography: bibliography.bib
+date: today
+date-format: long
+format: 
+    pdf: 
+        number-sections: true
+        number-depth: 3
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center}\LARGE\includegraphics[width=5cm, height=5cm]{Untitled.png}\\[\bigskipamount]}
+- \posttitle{\end{center}}
+---
+
+# **1. Lists (`list`)**
+
+## **Definition:**
+
+A **list** is an ordered, mutable collection of items. Lists can contain elements of different data types (integers, floats, strings, etc.) and can be changed after they are created (mutable). Lists are written with square brackets `[]`.
+
+## **Example:**
+
+``` python
+fruits = ["apple", "banana", "cherry"]
+numbers = [1, 2, 3, 4, 5]
+mixed = ["hello", 42, 3.14, True]
+```
+
+In the above example:
+
+-   `fruits` is a list of strings.
+-   `numbers` is a list of integers.
+-   `mixed` is a list containing different data types.
+
+------------------------------------------------------------------------
+
+## **Methods and Operations for Lists:**
+
+-   **Accessing Elements:** You can access individual elements in a list using their index. Indexing starts from `0`.
+
+    ``` python
+    fruits = ["apple", "banana", "cherry"]
+    print(fruits[0])  # Output: apple
+    print(fruits[2])  # Output: cherry
+    ```
+
+-   **Negative Indexing:** You can also access list elements using negative indices, where `-1` refers to the last element, `-2` to the second-to-last, and so on.
+
+    ``` python
+    print(fruits[-1])  # Output: cherry (last element)
+    print(fruits[-2])  # Output: banana (second-to-last element)
+    ```
+
+-   **Modifying Elements:** Lists are mutable, meaning you can change the value of elements after the list is created.
+
+    ``` python
+    fruits[1] = "orange"
+    print(fruits)  # Output: ['apple', 'orange', 'cherry']
+    ```
+
+-   **Appending and Extending:** You can add elements to the end of a list using `append()`, or add multiple elements with `extend()`.
+
+    ``` python
+    fruits.append("mango")
+    print(fruits)  # Output: ['apple', 'orange', 'cherry', 'mango']
+
+    fruits.extend(["pear", "grape"])
+    print(fruits)  # Output: ['apple', 'orange', 'cherry', 'mango', 'pear', 'grape']
+    ```
+
+-   **Inserting Elements:** The `insert()` method allows you to add an element at a specific index.
+
+    ``` python
+    fruits.insert(1, "blueberry")
+    print(fruits)  # Output: ['apple', 'blueberry', 'orange', 'cherry', 'mango', 'pear', 'grape']
+    ```
+
+-   **Removing Elements:** You can remove elements from a list using methods like `remove()` (removes the first occurrence of a value) or `pop()` (removes by index).
+
+    ``` python
+    fruits.remove("orange")
+    print(fruits)  # Output: ['apple', 'blueberry', 'cherry', 'mango', 'pear', 'grape']
+
+    fruits.pop(2)
+    print(fruits)  # Output: ['apple', 'blueberry', 'mango', 'pear', 'grape']
+    ```
+
+-   **Slicing Lists:** You can access parts of a list by using slicing. Slicing allows you to retrieve a range of elements using the syntax `my_list[start:end:step]`.
+
+    ``` python
+    fruits = ["apple", "banana", "cherry", "mango", "pear", "grape"]
+
+    # Basic slicing
+    print(fruits[1:4])  # Output: ['banana', 'cherry', 'mango']
+
+    # Using a step value
+    print(fruits[0:5:2])  # Output: ['apple', 'cherry', 'pear'] (selects every second element)
+
+    # Omitting start and end values with a step
+    print(fruits[::2])  # Output: ['apple', 'cherry', 'pear'] (all elements, every second one)
+    ```
+
+-   **Checking Membership:** Use the `in` operator to check if an element is in the list.
+
+    ``` python
+    print("apple" in fruits)  # Output: True
+    print("orange" in fruits)  # Output: False
+    ```
+
+-   **`len()` Function:** Returns the number of elements in the list.
+
+    ``` python
+    print(len(fruits))  # Output: 5
+    ```
+
+------------------------------------------------------------------------
+
+# **2. Tuples (`tuple`)**
+
+## **Definition:**
+
+A **tuple** is similar to a list, but it is immutable, meaning its elements cannot be changed after creation. Tuples are defined using parentheses `()` instead of square brackets.
+
+## **Example:**
+
+``` python
+colors = ("red", "green", "blue")
+numbers = (1, 2, 3)
+```
+
+In the above example: - `colors` is a tuple of strings. - `numbers` is a tuple of integers.
+
+------------------------------------------------------------------------
+
+## **Methods and Operations for Tuples:**
+
+-   **Accessing Elements:**
+
+Like lists, you can access elements of a tuple using indexing.
+
+``` python
+print(colors[0])  # Output: red
+print(numbers[2])  # Output: 3
+```
+
+-   **Immutable Nature:**
+
+    Tuples cannot be modified after they are created. If you try to change an element, Python will raise an error.
+
+    ``` python
+    # This will raise an error
+    # colors[0] = "yellow"  # Error: 'tuple' object does not support item assignment
+    ```
+
+-   **Tuple Slicing:**
+
+Just like lists, you can slice tuples.
+
+``` python
+print(colors[:2])  # Output: ('red', 'green')
+```
+
+-   **Unpacking Tuples:**
+
+You can assign elements of a tuple to multiple variables at once.
+
+``` python
+red, green, blue = colors
+print(red)   # Output: red
+print(green) # Output: green
+print(blue)  # Output: blue
+```
+
+-   **Checking Membership:**
+
+Use the `in` operator to check if an element exists in the tuple.
+
+``` python
+print("blue" in colors)  # Output: True
+print("yellow" in colors)  # Output: False
+```
+
+-   **`len()` Function:**
+
+Returns the number of elements in the tuple.
+
+``` python
+print(len(colors))  # Output: 3
+```
+
+------------------------------------------------------------------------
+
+# **Key Differences Between Lists and Tuples:**
+
+| Feature | Lists | Tuples |
+|------------------|---------------------------|---------------------------|
+| **Mutability** | Mutable (can be changed) | Immutable (cannot be changed) |
+| **Syntax** | Defined with `[]` | Defined with `()` |
+| **Methods** | More methods like `append()`, `remove()`, etc. | Fewer methods due to immutability |
+| **Use Cases** | Used when elements may change over time | Used when elements should remain constant |
+
+------------------------------------------------------------------------
+
+# **Conclusion**
+
+Both lists and tuples are essential data structures in Python, but they serve different purposes. **Lists** are ideal when you need a collection of items that might change, while **tuples** are useful for collections that should remain constant throughout the program. Understanding when to use lists versus tuples, and how to manipulate these data types, is crucial for efficient Python programming.
+
+# References {.unnumbered}

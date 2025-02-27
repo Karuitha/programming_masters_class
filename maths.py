@@ -82,11 +82,72 @@ True and False
 False and False
 not True and not False
 
+# String concatenation/home/karuitha/Documents/desktop/postdoc/beyond_profit_microfinance /home/karuitha/Documents/desktop/postdoc/shopping_paper2
+
+
+# Type conversions
+
+
+
 # Functions and Methods in Python
+## Common finctions 
+## The print() function
+
+
+## The input() function
+
+
+## The len() function
+
+
+
+## The range() function
+
+
+
+## The int(), float(), str(), and bool() functions
+
+
+## The type() function
+
+
+
+## There are many more functions 
+
+# Methods in Python
+## String methods
+my_name = "John Karuitha"
+my_name.upper()
+
+
+
+## Int methods
+my_age = 37
+
+
+## Float methods
+my_weight = 65.7
+
+## Boolean methods
+is_student = True
+is_student.conjugate()
+
+
 
 
 # Complex data types 
 # Lists
+## Ordered and mutable
+## Can hold several data types
+my_numbers = [1, 20, 3, 4, 5, 6, 17]
+my_names = ["Patel", "Jane", "Diane"]
+my_bools = [True, False, False]
+my_list = ["Karuitha", True, 1, 5]
+
+my_numbers.sort()
+my_numbers.reverse()
+my_numbers.clear()
+
 
 
 # Tuples
@@ -96,3 +157,74 @@ not True and not False
 
 
 # Dictionaries
+
+
+# Loops and conditionals
+## Conditionals
+## if ....elif ....else
+
+
+
+
+## For loops
+
+
+
+
+## While loops
+
+
+
+## Nested loops
+
+
+
+
+## Creating functions 
+
+
+
+
+
+
+
+
+## Modules in Python
+## Numpy
+
+
+
+## Pandas
+
+
+
+## Matplotlib
+
+
+
+
+## Seaborn
+
+
+
+
+## There are thousands of modules
+
+
+
+
+# Exception handling
+
+
+
+
+# unit tests and the pytest module
+
+
+
+
+
+
+
+
+

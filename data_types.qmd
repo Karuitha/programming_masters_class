@@ -1,0 +1,236 @@
+---
+title: "Data Structures in Python: Atomic Data Types"
+subtitle: ""
+author: "John Karuitha, PhD"
+editor: visual
+bibliography: bibliography.bib
+date: today
+date-format: long
+format: 
+    pdf: 
+        number-sections: true
+        number-depth: 3
+header-includes:
+- \usepackage{titling}
+- \pretitle{\begin{center}\LARGE\includegraphics[width=5cm, height=5cm]{Untitled.png}\\[\bigskipamount]}
+- \posttitle{\end{center}}
+---
+
+# **Data Structures in Python: Integers, Floats, Booleans, and Strings**
+
+In Python, **data structures** refer to how data is stored, organized, and manipulated. Python has several built-in data types that help you work with different kinds of information. In this lesson, we will focus on four fundamental types: **integers, floats, booleans, and strings**.
+
+------------------------------------------------------------------------
+
+# **1. Integers (`int`)**
+
+## **Definition:**
+
+Integers are whole numbers that can be positive, negative, or zero, without any decimal points. They belong to the `int` data type.
+
+## **Example:**
+
+``` python
+age = 25   # Positive integer
+temperature = -10  # Negative integer
+count = 0   # Zero
+```
+
+## **Methods and Operations for Integers:**
+
+-   **Arithmetic Operations:** Python supports basic arithmetic operations with integers such as addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), and more.
+
+    ``` python
+    a = 10
+    b = 5
+    print(a + b)  # Output: 15 (addition)
+    print(a - b)  # Output: 5 (subtraction)
+    print(a * b)  # Output: 50 (multiplication)
+    print(a / b)  # Output: 2.0 (division, note the result is a float)
+    ```
+
+-   **`abs()` Function:** Returns the absolute value of an integer (removes the negative sign).
+
+    ``` python
+    print(abs(-5))  # Output: 5
+    ```
+
+-   **`pow()` Function:** Raises an integer to a certain power (exponentiation).
+
+    ``` python
+    print(pow(2, 3))  # Output: 8 (2 to the power of 3)
+    ```
+
+-   **Type Conversion Methods:** You can convert an integer to other types using functions like `float()` or `str()`.
+
+    ``` python
+    num = 10
+    print(float(num))  # Output: 10.0 (converted to a float)
+    print(str(num))    # Output: '10' (converted to a string)
+    ```
+
+------------------------------------------------------------------------
+
+# **2. Floats (`float`)**
+
+## **Definition:**
+
+Floats (floating-point numbers) are numbers that contain decimal points. They are used when more precision is required, such as in measurements or financial data.
+
+## **Example:**
+
+``` python
+price = 19.99  # Float value
+height = 5.7   # Float value
+```
+
+## **Methods and Operations for Floats:**
+
+-   **Arithmetic Operations:** Just like integers, floats can be added, subtracted, multiplied, or divided.
+
+    ``` python
+    x = 5.5
+    y = 2.0
+    print(x + y)  # Output: 7.5
+    print(x * y)  # Output: 11.0
+    ```
+
+-   **`round()` Function:** This rounds a float to a specified number of decimal places.
+
+    ``` python
+    value = 3.14159
+    print(round(value, 2))  # Output: 3.14 (rounded to 2 decimal places)
+    ```
+
+-   **`int()` Function:** Converts a float to an integer, but this truncates the decimal part.
+
+    ``` python
+    print(int(4.9))  # Output: 4
+    ```
+
+------------------------------------------------------------------------
+
+# **3. Booleans (`bool`)**
+
+## **Definition:**
+
+Booleans represent two values: `True` or `False`. They are commonly used in conditions and comparisons.
+
+## **Example:**
+
+``` python
+is_active = True
+is_student = False
+```
+
+## **Boolean Expressions and Methods:**
+
+-   **Comparison Operators:** Booleans often result from comparisons, using operators like `==`, `!=`, `>`, `<`, `>=`, `<=`.
+
+    ``` python
+    x = 10
+    y = 5
+    print(x > y)  # Output: True
+    print(x == y) # Output: False
+    ```
+
+-   **Logical Operators:** You can combine boolean values using logical operators like `and`, `or`, and `not`.
+
+    ``` python
+    a = True
+    b = False
+    print(a and b)  # Output: False (both must be True)
+    print(a or b)   # Output: True (one of them is True)
+    print(not a)    # Output: False (negates True to False)
+    ```
+
+-   **`bool()` Function:** Converts other data types into a boolean. Any non-zero value or non-empty string is `True`; zero, empty lists, or `None` are `False`.
+
+    ``` python
+    print(bool(1))       # Output: True
+    print(bool(0))       # Output: False
+    print(bool("hello")) # Output: True
+    print(bool(""))      # Output: False
+    ```
+
+------------------------------------------------------------------------
+
+# **4. Strings (`str`)**
+
+## **Definition:**
+
+Strings are sequences of characters enclosed in single (`'...'`) or double quotes (`"..."`). They are used for representing text.
+
+## **Example:**
+
+``` python
+name = "John"
+greeting = 'Hello, World!'
+```
+
+## **Common String Methods:**
+
+-   **`len()` Function:** Returns the length of the string (number of characters).
+
+    ``` python
+    print(len("Python"))  # Output: 6
+    ```
+
+-   **`lower()` and `upper()` Methods:** Convert the string to lowercase or uppercase.
+
+    ``` python
+    text = "Hello"
+    print(text.lower())  # Output: "hello"
+    print(text.upper())  # Output: "HELLO"
+    ```
+
+-   **`strip()` Method:** Removes leading and trailing spaces from the string.
+
+    ``` python
+    message = "  Hello!  "
+    print(message.strip())  # Output: "Hello!"
+    ```
+
+-   **String Concatenation:** You can combine two or more strings using the `+` operator.
+
+    ``` python
+    first_name = "John"
+    last_name = "Doe"
+    full_name = first_name + " " + last_name
+    print(full_name)  # Output: John Doe
+    ```
+
+-   **`replace()` Method:** Replaces a part of the string with another substring.
+
+    ``` python
+    text = "Hello, World!"
+    print(text.replace("World", "Python"))  # Output: Hello, Python!
+    ```
+
+-   **`split()` Method:** Splits the string into a list of substrings based on a delimiter (default is space).
+
+    ``` python
+    sentence = "Python is fun"
+    words = sentence.split()
+    print(words)  # Output: ['Python', 'is', 'fun']
+    ```
+
+-   **String Formatting:** You can format strings using the `format()` method or f-strings.
+
+    ``` python
+    name = "Alice"
+    age = 25
+    print("My name is {} and I am {} years old.".format(name, age))
+    # Output: My name is Alice and I am 25 years old.
+
+    print(f"My name is {name} and I am {age} years old.")
+    # Output: My name is Alice and I am 25 years old.
+    ```
+
+------------------------------------------------------------------------
+
+# **Conclusion**
+
+Understanding the basic data types in Python—integers, floats, booleans, and strings—is critical as they are the foundation for building more complex programs. Each data type has its own set of methods and functions that allow you to manipulate and interact with the data. As you progress, you will frequently encounter these types and their operations, so practicing them is essential for mastering Python programming [@downey2024think; @mckinney2022python].
+
+# References {.unnumbered}
