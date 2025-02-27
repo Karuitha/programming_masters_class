@@ -1,4 +1,5 @@
 # Arithmetic operations
+# function()
 print(5 + 6)
 print(7 - 3)
 print(9 * 2)
@@ -12,6 +13,7 @@ print(10 % 3)
 
 # Floor division
 print(10 // 3)
+print(-10 // 3)
 
 # String concatenation
 print("Hello" + " " + "World!")
@@ -26,6 +28,7 @@ type(3.14)
 type(2)
 
 
+
 # 3. str
 type("hello")
 print("I'm an adult!")
@@ -35,6 +38,10 @@ type(True)
 type(False)
 
 # The concept of a variable and variable assignment
+# variable name cannot start with number
+# variable name cannot start with special characters
+# variable name cannot contain spaces
+# Let variable names be meaningful
 # Assignment operator (=)
 my_year_of_birth = 1990
 print(my_year_of_birth)
@@ -43,6 +50,8 @@ print(my_year_of_birth)
 
 # Equality (==)
 50 == 50
+45 > 50
+45 >= 50
 
 # Height (cm)
 height_in_cm = 180
@@ -52,6 +61,7 @@ height_in_meters = height_in_cm / 100
 weight_in_kg = 70
 
 # BMI calculation
+# BEDMAS
 bmi = weight_in_kg / (height_in_meters ** 2)
 print(bmi)
 
