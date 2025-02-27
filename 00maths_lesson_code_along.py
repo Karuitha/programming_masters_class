@@ -92,26 +92,68 @@ True and False
 False and False
 not True and not False
 
-# String concatenation/home/karuitha/Documents/desktop/postdoc/beyond_profit_microfinance /home/karuitha/Documents/desktop/postdoc/shopping_paper2
+# String concatenation
+# Combine 2 texts together
+first_name = "Yvonne"
+print(first_name)
+surname = "Muturi"
+print(surname)
+
+print(first_name + " " + surname)
+
+
+first_number = "1"
+type(first_number)
+second_number = "2"
+
+print(first_number + second_number)
 
 
 # Type conversions
+third_number = "3"
+type(third_number)
+third_number = int(third_number)
+type(third_number)
 
-
+temperature = "False"
+temperature = bool(temperature)
+print(temperature)
+type(temperature)
 
 # Functions and Methods in Python
-## Common finctions 
+## Common functions 
 ## The print() function
+help(print)
 
 
 ## The input() function
+## The input function always returns a string
+help(input)
+my_password = input("Please enter your password: ")
+print(my_password)
 
+# Age of a person
+current_year = 2025
+type(current_year)
+year_of_birth = input("Please enter year of birth: ")
+type(year_of_birth)
+print(year_of_birth)
+age = current_year - int(year_of_birth)
+print(age)
 
 ## The len() function
-
+my_name = "Murimi"
+print(len(my_name))
 
 
 ## The range() function
+## Alaways excludes last number
+help(range)
+
+for i in range(1, 11, 2):
+    print(i)
+
+
 
 
 
@@ -125,18 +167,25 @@ not True and not False
 ## There are many more functions 
 
 # Methods in Python
+## Functions specific to objects
 ## String methods
 my_name = "John Karuitha"
 my_name.upper()
+my_name.lower()
+my_name.count("a")
+my_name.replace("a", "o")
+print(my_name)
 
 
 
 ## Int methods
 my_age = 37
+my_age.is_integer()
 
 
 ## Float methods
 my_weight = 65.7
+my_weight.is_integer()
 
 ## Boolean methods
 is_student = True
@@ -154,11 +203,10 @@ my_names = ["Patel", "Jane", "Diane"]
 my_bools = [True, False, False]
 my_list = ["Karuitha", True, 1, 5]
 
-my_numbers.sort()
-my_numbers.reverse()
 my_numbers.clear()
-
-
+my_numbers.reverse()
+print(my_numbers)
+my_numbers.clear()
 
 # Tuples
 
