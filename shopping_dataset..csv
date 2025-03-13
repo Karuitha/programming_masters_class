@@ -1,0 +1,121 @@
+Customer_ID,Age,Gender,City,Income,Total_Spend,Items_Purchased,Payment_Method,Membership_Status,Discount_Applied,Purchase_Date,Product_Category,Product_Rating,Time_Spent_Shopping,Store_Visited,Online_Order,Delivery_Time,Customer_Feedback,Loyalty_Points,Return_Status
+CUST_1,56,Female,New York,,226.75,2,Debit Card,Regular,20,2023-01-01 00:00:00,Clothing,3,24.12,Boutique,FALSE,4,Average,2356,Not Returned
+CUST_2,69,Male,Phoenix,71885,,5,Credit Card,Silver,0,2023-01-02 00:00:00,Clothing,2,89.87,Supermarket,FALSE,11,Average,4790,Not Returned
+CUST_3,46,Other,,,56,5,Credit Card,Regular,0,2023-01-03 00:00:00,Beauty,2,14.52,Online,TRUE,3,Good,2335,Returned
+CUST_4,32,Male,Los Angeles,,99.6,6,Online Payment,Silver,20,2023-01-04 00:00:00,Groceries,4,74.36,Mall,TRUE,4,Poor,306,Returned
+CUST_5,60,Female,Chicago,92991,467.96,19,Online Payment,Regular,,,Clothing,1,33.22,Mall,FALSE,13,Average,3665,Returned
+,25,Male,,24014,322.75,8,Debit Card,Regular,15,2023-01-06 00:00:00,Electronics,,49.77,Mall,TRUE,12,Excellent,1989,Returned
+CUST_7,38,Other,New York,31093,263.18,16,Online Payment,,10,2023-01-07 00:00:00,Beauty,3,38.2,Supermarket,FALSE,7,Excellent,661,Not Returned
+CUST_8,56,Other,Houston,38070,331.98,,Cash,Platinum,0,2023-01-08 00:00:00,Home Decor,4,45.9,Boutique,FALSE,13,Excellent,4644,Returned
+CUST_9,36,Female,Chicago,55777,223.48,1,Online Payment,Silver,10,2023-01-09 00:00:00,Beauty,1,87.69,Online,FALSE,11,Poor,311,Returned
+CUST_10,40,Male,Phoenix,76958,367.72,17,Cash,Silver,10,2023-01-10 00:00:00,,5,39.17,Supermarket,FALSE,1,Good,2920,Returned
+CUST_11,28,,Chicago,102074,33.38,7,Debit Card,Silver,20,2023-01-11 00:00:00,Beauty,3,70.14,Boutique,TRUE,6,Excellent,1082,Returned
+CUST_12,28,Female,Houston,30729,287.36,13,Debit Card,Regular,15,2023-01-12 00:00:00,Beauty,2,59.75,Supermarket,TRUE,,Poor,2971,
+CUST_13,41,Other,Houston,119713,87.74,,Debit Card,Silver,5,2023-01-13 00:00:00,Beauty,2,81.32,Online,TRUE,11,Average,754,Returned
+CUST_14,,Other,Chicago,65017,68.88,4,Debit Card,Silver,15,2023-01-14 00:00:00,,3,112.74,Boutique,TRUE,10,Good,4130,
+CUST_15,57,Male,Houston,86320,177.52,6,Debit Card,Regular,15,2023-01-15 00:00:00,Home Decor,2,89.25,Supermarket,FALSE,,Average,4540,Not Returned
+CUST_16,,Other,Chicago,47751,54.98,19,Cash,Gold,10,2023-01-16 00:00:00,Beauty,4,29.72,Online,FALSE,10,Poor,352,Not Returned
+CUST_17,,Male,Los Angeles,126400,56.14,12,Cash,Regular,15,2023-01-17 00:00:00,Clothing,1,8.59,Mall,TRUE,2,Excellent,902,Not Returned
+CUST_18,39,Other,Chicago,125864,162.59,7,Debit Card,Silver,0,2023-01-18 00:00:00,Groceries,4,35.16,Online,FALSE,14,,3888,Not Returned
+CUST_19,19,,Chicago,,489.96,10,Online Payment,Regular,10,2023-01-19 00:00:00,Groceries,2,73.43,Mall,FALSE,2,Poor,158,Returned
+CUST_20,41,Other,Houston,125647,95.91,19,Credit Card,Gold,0,2023-01-20 00:00:00,Groceries,5,10.91,,FALSE,13,Excellent,1977,Not Returned
+CUST_21,61,Male,Houston,125510,18.41,7,Debit Card,Regular,5,2023-01-21 00:00:00,,1,62.08,Boutique,TRUE,4,Good,,Not Returned
+CUST_22,47,Male,New York,74748,384.05,3,Online Payment,Silver,10,,Home Decor,1,73.64,Boutique,TRUE,1,Poor,2071,Returned
+CUST_23,55,Female,New York,25801,,13,Credit Card,Gold,5,2023-01-23 00:00:00,Clothing,3,43.44,Supermarket,TRUE,3,Average,403,
+CUST_24,19,Other,Los Angeles,,179.69,13,Debit Card,Platinum,10,,Groceries,3,93.65,Boutique,FALSE,,Poor,,Not Returned
+CUST_25,38,Other,New York,69689,237.69,18,Debit Card,Silver,,2023-01-25 00:00:00,Groceries,,17.26,Boutique,TRUE,9,Good,,Not Returned
+CUST_26,50,Female,Chicago,124290,328.39,8,Cash,Gold,15,,Beauty,1,13.64,,TRUE,7,Good,,Returned
+CUST_27,29,Other,Houston,70993,33.55,9,Credit Card,Gold,20,2023-01-27 00:00:00,Home Decor,5,88.74,Supermarket,TRUE,7,Poor,3453,Not Returned
+CUST_28,39,,New York,49592,475.08,7,Credit Card,Platinum,5,2023-01-28 00:00:00,Groceries,3,61.98,Online,TRUE,13,Poor,955,Returned
+CUST_29,61,,New York,30647,444.47,1,Online Payment,,15,2023-01-29 00:00:00,Clothing,3,84.17,Mall,TRUE,13,Excellent,1712,Returned
+CUST_30,42,Other,,28716,137.84,3,Cash,Regular,10,2023-01-30 00:00:00,Clothing,1,55.01,,,11,Good,4703,Returned
+,,Other,Los Angeles,108891,17.5,13,Cash,Silver,15,2023-01-31 00:00:00,Groceries,4,33.34,Mall,FALSE,,Poor,,Returned
+CUST_32,44,Female,Chicago,107545,,17,Cash,,0,2023-02-01 00:00:00,Home Decor,2,99.2,Online,FALSE,2,Poor,3811,Not Returned
+CUST_33,59,Female,Houston,137638,255.51,1,Cash,Regular,15,2023-02-02 00:00:00,Clothing,3,96.93,Online,TRUE,,,2625,
+CUST_34,45,,Los Angeles,109912,274.29,6,,Platinum,,,Beauty,,84.89,Supermarket,TRUE,4,Poor,2382,Returned
+CUST_35,33,Other,New York,130627,,6,Credit Card,Regular,15,,Clothing,4,36.3,Online,,6,,1441,Not Returned
+CUST_36,32,Other,Houston,90316,311.77,12,Debit Card,Gold,0,2023-02-05 00:00:00,Electronics,4,72.88,Mall,,11,Good,2979,Returned
+CUST_37,64,Other,Houston,,472.51,13,Debit Card,,,2023-02-06 00:00:00,Electronics,5,46.51,Online,TRUE,11,Excellent,1797,Not Returned
+CUST_38,68,Male,New York,22368,472.68,,Cash,Platinum,20,2023-02-07 00:00:00,Home Decor,5,,Mall,TRUE,3,Excellent,4390,Not Returned
+,61,,Los Angeles,97575,,15,Cash,Gold,10,2023-02-08 00:00:00,Groceries,,110.49,Mall,,1,Excellent,4009,Not Returned
+CUST_40,69,Female,New York,26655,321.84,,Cash,Gold,15,2023-02-09 00:00:00,Home Decor,2,20.73,Online,TRUE,,Excellent,4850,Returned
+,20,Male,Houston,126477,402.47,11,Debit Card,Gold,20,2023-02-10 00:00:00,Home Decor,1,114.28,Supermarket,FALSE,12,Good,1394,Not Returned
+,54,Other,Phoenix,90031,341.81,5,Online Payment,Platinum,10,2023-02-11 00:00:00,Home Decor,5,56.29,Boutique,TRUE,8,Excellent,,Not Returned
+CUST_43,68,Other,Phoenix,96429,290.95,4,Online Payment,,,2023-02-12 00:00:00,Home Decor,3,26.29,Online,TRUE,12,Excellent,1269,Returned
+CUST_44,24,Male,Chicago,111083,72.97,3,Debit Card,Silver,0,2023-02-13 00:00:00,Beauty,5,67.32,Mall,TRUE,13,,4732,Not Returned
+CUST_45,38,Other,New York,107922,407.49,19,Debit Card,Silver,5,2023-02-14 00:00:00,Beauty,3,105.39,Mall,TRUE,5,Good,,Not Returned
+CUST_46,26,Other,New York,75766,412.11,18,Debit Card,Platinum,5,2023-02-15 00:00:00,Clothing,4,89.21,,FALSE,5,Good,529,Not Returned
+CUST_47,56,Male,Chicago,,316.71,15,Debit Card,Gold,20,2023-02-16 00:00:00,Electronics,5,97.75,Supermarket,FALSE,11,Average,3623,Not Returned
+CUST_48,35,Male,Chicago,33403,412.01,9,Debit Card,Silver,5,2023-02-17 00:00:00,Home Decor,4,80.76,Supermarket,FALSE,4,Good,2958,Not Returned
+CUST_49,21,Other,Chicago,52097,329.23,17,Debit Card,,,2023-02-18 00:00:00,Clothing,,,Mall,TRUE,6,Good,2914,Returned
+CUST_50,42,Other,Houston,98657,111.28,14,Cash,Silver,5,2023-02-19 00:00:00,Electronics,2,102.66,Mall,TRUE,,,4889,Not Returned
+CUST_51,,Other,New York,140607,144.24,15,Cash,Regular,20,2023-02-20 00:00:00,Groceries,1,33.71,Supermarket,FALSE,9,Good,3591,Not Returned
+CUST_52,,Female,Houston,30966,115.15,,Cash,Silver,5,2023-02-21 00:00:00,,5,61.28,Boutique,TRUE,5,Good,2147,Returned
+CUST_53,26,,Chicago,144862,194.86,3,Cash,Silver,15,,Electronics,4,30.44,,TRUE,,Good,4573,Returned
+CUST_54,43,Female,,119157,29.09,16,,Gold,0,2023-02-23 00:00:00,Groceries,3,118.58,Mall,FALSE,11,Good,,Returned
+CUST_55,19,Male,Houston,138834,312.94,11,Online Payment,Platinum,20,2023-02-24 00:00:00,Electronics,2,113.57,Mall,FALSE,1,Average,939,Not Returned
+CUST_56,37,Female,Houston,113848,174.91,12,Credit Card,Gold,0,,Beauty,2,9.53,Supermarket,FALSE,10,Good,525,Returned
+,45,Male,,72921,331.3,10,Debit Card,Gold,,2023-02-26 00:00:00,Beauty,3,,Online,FALSE,12,Good,1,
+,64,Male,New York,69726,198.84,16,Credit Card,Gold,0,,Clothing,4,111.4,Supermarket,TRUE,6,Average,374,
+CUST_59,,Female,Chicago,146141,343.99,8,Online Payment,Gold,10,2023-02-28 00:00:00,,4,25.77,Online,TRUE,2,Poor,2340,Returned
+CUST_60,61,Female,New York,,176.91,6,Cash,Gold,10,2023-03-01 00:00:00,Electronics,5,70.31,Online,FALSE,,Excellent,4005,
+CUST_61,25,Female,Phoenix,42677,137.74,12,Online Payment,Silver,0,2023-03-02 00:00:00,Electronics,5,110.28,Online,TRUE,3,Poor,3052,Not Returned
+CUST_62,64,Other,Los Angeles,75609,,8,Debit Card,Gold,20,2023-03-03 00:00:00,,1,8.9,Mall,,1,Average,4648,Returned
+CUST_63,52,,Los Angeles,116825,349.52,4,Cash,,15,2023-03-04 00:00:00,Beauty,2,85.2,Boutique,FALSE,9,Excellent,2365,Not Returned
+CUST_64,31,Other,,76661,180.68,8,Debit Card,Platinum,15,2023-03-05 00:00:00,Electronics,5,39.2,,TRUE,8,Average,1525,Returned
+CUST_65,34,Male,Chicago,51024,468.96,18,Cash,,5,2023-03-06 00:00:00,Beauty,4,111.31,Boutique,FALSE,12,Average,4476,Returned
+CUST_66,53,Other,Phoenix,128211,29.2,5,Credit Card,Silver,20,2023-03-07 00:00:00,Electronics,3,116.67,,,2,Good,,Returned
+CUST_67,67,Female,New York,90313,214.79,9,Credit Card,Silver,10,2023-03-08 00:00:00,Clothing,4,113.59,Online,TRUE,12,Excellent,13,Not Returned
+CUST_68,57,Male,Houston,147813,,4,Credit Card,,0,,Home Decor,2,59.53,Mall,TRUE,11,Good,4599,Returned
+CUST_69,21,,New York,73006,278.51,17,Online Payment,Gold,5,2023-03-10 00:00:00,Electronics,4,,Boutique,TRUE,,Excellent,2278,Not Returned
+CUST_70,19,Male,Houston,,217.5,9,Debit Card,Gold,15,2023-03-11 00:00:00,,1,102.12,Mall,FALSE,12,Average,3155,Not Returned
+CUST_71,23,Other,New York,35338,288.57,,,Gold,10,2023-03-12 00:00:00,Clothing,2,41.7,Supermarket,,14,Average,129,Not Returned
+CUST_72,59,Female,Phoenix,88027,292.2,13,Credit Card,,,2023-03-13 00:00:00,Electronics,3,100.33,Mall,FALSE,9,Poor,3814,Not Returned
+CUST_73,,Male,Houston,112772,368.51,16,Debit Card,Regular,0,2023-03-14 00:00:00,Groceries,1,9.26,Mall,FALSE,1,Excellent,4933,Returned
+CUST_74,46,Male,Chicago,,72.57,13,Credit Card,Gold,,2023-03-15 00:00:00,Home Decor,,73.57,Boutique,FALSE,13,Good,3216,Not Returned
+CUST_75,35,Male,New York,100135,132.51,,Online Payment,Regular,20,2023-03-16 00:00:00,Electronics,3,31.45,Online,FALSE,5,Poor,2938,Not Returned
+CUST_76,43,Other,New York,39508,294.47,3,Online Payment,Platinum,10,2023-03-17 00:00:00,Clothing,,,Mall,TRUE,8,Poor,3928,Returned
+CUST_77,61,Other,Houston,140379,434.89,6,,Silver,0,2023-03-18 00:00:00,Groceries,1,13.85,Online,TRUE,11,,2040,Not Returned
+CUST_78,,Female,Chicago,23051,285.31,18,,,20,2023-03-19 00:00:00,Clothing,,85.07,Supermarket,FALSE,14,Good,27,Returned
+CUST_79,27,Other,Chicago,68747,126.91,19,Debit Card,Regular,,2023-03-20 00:00:00,Clothing,5,44.09,Mall,FALSE,2,Poor,2113,Not Returned
+,53,Male,Phoenix,,343.12,,,Regular,10,2023-03-21 00:00:00,,1,88.35,,TRUE,4,Good,1252,Returned
+CUST_81,31,Female,,107142,372.56,15,Credit Card,Gold,20,2023-03-22 00:00:00,Clothing,1,,Supermarket,FALSE,7,,4356,Not Returned
+CUST_82,48,Male,Chicago,107235,,,Debit Card,Silver,20,2023-03-23 00:00:00,Groceries,3,41.26,Supermarket,TRUE,3,Good,2046,
+CUST_83,65,,Chicago,74021,195.09,10,Credit Card,Silver,20,2023-03-24 00:00:00,Electronics,4,67.04,Boutique,FALSE,13,Average,4555,Not Returned
+CUST_84,32,Other,Los Angeles,86412,271.82,18,Debit Card,Silver,10,2023-03-25 00:00:00,Groceries,2,95.93,Mall,TRUE,12,Average,4023,Not Returned
+CUST_85,25,Female,Phoenix,78335,253.31,13,Cash,Platinum,,2023-03-26 00:00:00,Groceries,2,41.66,Mall,FALSE,5,Average,,Returned
+CUST_86,31,Other,New York,76179,200.91,5,Cash,Regular,5,2023-03-27 00:00:00,Home Decor,5,76.98,Supermarket,FALSE,8,Average,3374,Returned
+,40,Other,Houston,52093,155.84,1,Online Payment,Regular,15,2023-03-28 00:00:00,,5,106.89,Mall,TRUE,12,Average,3466,Returned
+CUST_88,57,Female,New York,89678,58.99,,Cash,Regular,0,2023-03-29 00:00:00,,,75.82,Online,FALSE,10,Poor,3081,Returned
+CUST_89,38,Male,Phoenix,100738,36.21,,Cash,Platinum,20,2023-03-30 00:00:00,Electronics,5,,Boutique,FALSE,3,Poor,,Not Returned
+CUST_90,33,Male,Houston,59734,479.69,15,Cash,Regular,5,2023-03-31 00:00:00,Home Decor,3,7.81,Online,TRUE,4,Poor,629,Not Returned
+CUST_91,62,Female,Phoenix,92615,425.1,17,,Platinum,0,2023-04-01 00:00:00,Beauty,2,105.06,Mall,,14,Good,269,Returned
+CUST_92,35,Male,Chicago,93523,183.9,11,Cash,Silver,5,2023-04-02 00:00:00,Electronics,5,7.45,Supermarket,TRUE,9,Good,2639,
+CUST_93,64,Female,Houston,125103,,17,Cash,Gold,10,2023-04-03 00:00:00,Electronics,2,105.59,Boutique,,14,Good,1993,Returned
+CUST_94,41,Female,Chicago,114476,341.62,13,Online Payment,Regular,20,2023-04-04 00:00:00,Beauty,4,65.83,Mall,FALSE,14,Good,2891,Returned
+CUST_95,43,Other,New York,122769,246.44,1,Cash,Regular,0,,,1,112.99,Mall,,7,Average,4957,Not Returned
+CUST_96,42,Female,,37019,251.58,2,Cash,Silver,0,2023-04-06 00:00:00,Clothing,,,,FALSE,1,Average,3432,Not Returned
+CUST_97,62,Other,,131721,50.81,9,Debit Card,Gold,0,2023-04-07 00:00:00,Home Decor,1,119.76,Supermarket,FALSE,14,Average,1280,Not Returned
+CUST_98,58,Male,Houston,103613,54.94,3,Online Payment,Platinum,0,2023-04-08 00:00:00,Clothing,5,,Online,FALSE,12,Excellent,2360,Not Returned
+CUST_99,46,Male,Phoenix,111794,305.2,1,Online Payment,Gold,,2023-04-09 00:00:00,Beauty,1,93.23,Boutique,FALSE,4,Poor,,
+CUST_100,,Male,Phoenix,106672,281.31,16,,Silver,5,2023-04-10 00:00:00,Electronics,2,51.22,Boutique,FALSE,4,Good,1307,Not Returned
+CUST_101,62,Male,Chicago,93847,114.24,6,,Silver,20,2023-04-11 00:00:00,Electronics,,60.19,Supermarket,TRUE,9,,3192,Not Returned
+CUST_102,18,Other,Houston,,473.64,17,Online Payment,Gold,10,2023-04-12 00:00:00,Home Decor,5,77.16,Online,FALSE,6,,3178,Returned
+CUST_103,42,Male,New York,99634,392.84,5,Online Payment,Platinum,10,2023-04-13 00:00:00,Electronics,2,105.47,Boutique,TRUE,,Good,2734,Returned
+CUST_104,24,Female,Phoenix,48251,65.6,5,Credit Card,Platinum,10,2023-04-14 00:00:00,Electronics,5,118.17,Supermarket,FALSE,12,Good,2212,Returned
+CUST_105,,,Phoenix,123481,466.16,6,,Regular,10,2023-04-15 00:00:00,Home Decor,3,93.35,Mall,FALSE,6,Poor,2352,
+CUST_106,41,Female,,132566,487.38,3,,Platinum,5,2023-04-16 00:00:00,Home Decor,1,53.04,Boutique,,6,Average,3568,Returned
+CUST_107,18,,Phoenix,45945,498.01,5,Cash,Gold,15,2023-04-17 00:00:00,Beauty,3,53.46,,FALSE,5,,1655,Not Returned
+CUST_108,61,Male,Chicago,110852,37.38,5,Cash,Silver,20,,Electronics,2,89.82,Online,FALSE,5,Excellent,1579,Returned
+CUST_109,,Male,,52217,371.15,10,Credit Card,Regular,0,2023-04-19 00:00:00,Electronics,4,32.46,Online,TRUE,2,Excellent,2203,Returned
+CUST_110,41,Male,,28308,277.5,10,Online Payment,Regular,15,2023-04-20 00:00:00,Beauty,5,17.7,Mall,FALSE,8,Excellent,1390,Returned
+,28,Other,Houston,25949,355.86,19,Debit Card,Silver,10,2023-04-21 00:00:00,Groceries,1,,Boutique,FALSE,8,Average,1742,Returned
+,68,Female,Phoenix,71990,484.64,17,Credit Card,Platinum,15,2023-04-22 00:00:00,Groceries,,38.03,Boutique,FALSE,11,Good,1925,Returned
+CUST_113,34,Female,Phoenix,21150,347.13,14,Debit Card,Silver,20,2023-04-23 00:00:00,Groceries,2,39.08,Mall,,13,Average,619,
+CUST_114,25,Male,New York,109480,,9,Cash,Platinum,0,2023-04-24 00:00:00,,5,,Boutique,FALSE,1,Average,1274,Returned
+CUST_115,52,Female,Chicago,120235,434.77,14,Cash,Silver,0,2023-04-25 00:00:00,Electronics,1,9.84,Mall,FALSE,8,,956,Not Returned
+,52,Female,Los Angeles,94740,420.86,1,Credit Card,,20,2023-04-26 00:00:00,Beauty,2,7.06,,FALSE,5,,1939,Not Returned
+CUST_117,50,Other,New York,136352,218.78,19,Credit Card,Platinum,20,2023-04-27 00:00:00,Beauty,5,118.59,Mall,FALSE,,Excellent,3953,Returned
+CUST_118,22,Other,Los Angeles,86617,,,,Gold,10,2023-04-28 00:00:00,Groceries,4,,Online,TRUE,14,Poor,2381,Not Returned
+CUST_119,59,Other,Los Angeles,114841,,13,Online Payment,Regular,0,2023-04-29 00:00:00,Clothing,2,49.2,Boutique,TRUE,2,Excellent,968,Not Returned
+CUST_120,56,Other,Chicago,36896,447.03,4,Debit Card,Silver,15,2023-04-30 00:00:00,Electronics,2,83.16,,FALSE,14,Average,1316,Not Returned
